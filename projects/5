@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- Bootstrap CSS -->
+        <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> Bootstrap CSS -->
+        <link rel="stylesheet" type="text/css" href="/static/bootstrap.min_super.css">
+        <link rel="stylesheet" type="text/css" href="/static/alt_14.css">
+            <title>D Woolcott</title>
+    </head>
+    <body>
+        <header>
+          <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-primary">
+            <div class="container d-flex flex-column flex-md-row justify-content-between">
+                <a class="navbar-brand mr-4" href="/home">Daniel Woolcott</a>  <!-- text to appear as main title on all paages at top of nav bar -->
+                <!-- Navbar Right Side -->
+                <a class="btn btn-secondary my-2 my-sm-0" data-toggle="modal" data-target="#GetInTouchModal">Get In Touch</a>
+            </div>
+          </nav>
+        </header>
+
+        <main role="main">
+            
+                
+            
+
+            
+
+            
+<div class="position-relative overflow-hidden p-3 p-md-5 left">
+    <div class = "container">
+        <div class="row justify-content-center top-buffer">
+            <div class="col-md-10">
+              <article class="media content-section">
+                <img class=" article-img img-rounded mt-2 mb-2 ml-2" src="/static/summary_thumbnails/default.jpg">
+                <div class="media-body">
+                  <div class="article-metadata">
+                    <h2 class="article.title">Dummy Project 5</h2>
+                    <small class="text-muted">2020-11-03</small>
+                  </div>
+                  <p class="text-muted">This is a dummy machine learning project to test functionality</p>
+                  <p class="article-content">This is the content</p>
+                </div>
+              </article>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+            <!-- Modal -->
+            <div class="modal fade" id="GetInTouchModal" tabindex="-1" role="dialog" aria-labelledby="GetInTouchModalLabel" aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <form method ="POST" action="">
+                    <input id="csrf_token" name="csrf_token" type="hidden" value="IjM3OWE3YTQ1MWJmYjFmMWNlNjg5MmEzYmRlODcwMTBjOWI1NjIzNDMi.X6rF8g.pqr0sKt03ZLoNxxLitHFBYlYSG4">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="GetInTouchModalLabel">Get In Touch</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body">
+                          <div class="form-group">
+                            <label class="form-control-label" for="name">Name</label>
+                            
+                                <input class="form-control form-control-lg" id="name" name="name" required type="text" value="">
+                            
+                            </div>
+                            <div class="form-group">
+                                <label class="form-control-label" for="email">Email</label>
+                                
+                                    <input class="form-control form-control-lg" id="email" name="email" required type="text" value="">
+                                
+                            </div>
+                            <div class="form-group">
+                                <label class="form-control-label" for="subject">Subject</label>
+                                
+                                    <input class="form-control form-control-lg" id="subject" name="subject" required type="text" value="">
+                                
+                            </div>
+                            <div class="form-group">
+                                <label class="form-control-label" for="message">Message Body</label>
+                                
+                                    <textarea class="form-control form-control-lg" id="message" name="message" required>
+</textarea>
+                                
+                            </div>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+                        <input class="btn btn-primary" id="submit" name="submit" type="submit" value="Send">
+                      </div>
+                    </form>
+                </div>
+              </div>
+            </div>
+
+        </main>
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    </body>
+</html>
